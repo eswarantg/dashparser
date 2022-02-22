@@ -1,0 +1,179 @@
+  <MPDtype id="Config part of url maybe?" profiles="urn:mpeg:dash:profile:isoff-live:2011,http://dashif.org/guidelines/dash-if-simple" type="dynamic" minimumUpdatePeriod="PT0S" minBufferTime="PT2S" timeShiftBufferDepth="PT5M" availabilityStartTime="1970-01-01T00:00:00" publishTime="2021-07-29T11:25:05">
+      <ProgramInformation xmlns="urn:mpeg:dash:schema:mpd:2011">
+          <Title xmlns="urn:mpeg:dash:schema:mpd:2011">Media Presentation Description from DASH-IF live simulator</Title>
+      </ProgramInformation>
+      <BaseURL xmlns="urn:mpeg:dash:schema:mpd:2011">https://livesim.dashif.org/livesim/sts_1627557905/sid_05d3feaa/segtimeline_1/testpic_2s/</BaseURL>
+      <Period xmlns="urn:mpeg:dash:schema:mpd:2011" id="p0" start="PT0S">
+          <SegmentBase xmlns="urn:mpeg:dash:schema:mpd:2011">
+              <Initialization xmlns="urn:mpeg:dash:schema:mpd:2011"></Initialization>
+              <RepresentationIndex xmlns="urn:mpeg:dash:schema:mpd:2011"></RepresentationIndex>
+          </SegmentBase>
+          <SegmentList xmlns="urn:mpeg:dash:schema:mpd:2011">
+              <Initialization xmlns="urn:mpeg:dash:schema:mpd:2011"></Initialization>
+              <RepresentationIndex xmlns="urn:mpeg:dash:schema:mpd:2011"></RepresentationIndex>
+              <SegmentTimeline xmlns="urn:mpeg:dash:schema:mpd:2011"></SegmentTimeline>
+              <BitstreamSwitching xmlns="urn:mpeg:dash:schema:mpd:2011"></BitstreamSwitching>
+          </SegmentList>
+          <SegmentTemplate xmlns="urn:mpeg:dash:schema:mpd:2011">
+              <Initialization xmlns="urn:mpeg:dash:schema:mpd:2011"></Initialization>
+              <RepresentationIndex xmlns="urn:mpeg:dash:schema:mpd:2011"></RepresentationIndex>
+              <SegmentTimeline xmlns="urn:mpeg:dash:schema:mpd:2011"></SegmentTimeline>
+              <BitstreamSwitching xmlns="urn:mpeg:dash:schema:mpd:2011"></BitstreamSwitching>
+          </SegmentTemplate>
+          <AssetIdentifier xmlns="urn:mpeg:dash:schema:mpd:2011" schemeIdUri=""></AssetIdentifier>
+          <AdaptationSet xmlns="urn:mpeg:dash:schema:mpd:2011" lang="en" contentType="audio" segmentAlignment="true" mimeType="audio/mp4" startWithSAP="1">
+              <Role xmlns="urn:mpeg:dash:schema:mpd:2011" schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
+              <SegmentBase xmlns="urn:mpeg:dash:schema:mpd:2011">
+                  <Initialization xmlns="urn:mpeg:dash:schema:mpd:2011"></Initialization>
+                  <RepresentationIndex xmlns="urn:mpeg:dash:schema:mpd:2011"></RepresentationIndex>
+              </SegmentBase>
+              <SegmentList xmlns="urn:mpeg:dash:schema:mpd:2011">
+                  <Initialization xmlns="urn:mpeg:dash:schema:mpd:2011"></Initialization>
+                  <RepresentationIndex xmlns="urn:mpeg:dash:schema:mpd:2011"></RepresentationIndex>
+                  <SegmentTimeline xmlns="urn:mpeg:dash:schema:mpd:2011"></SegmentTimeline>
+                  <BitstreamSwitching xmlns="urn:mpeg:dash:schema:mpd:2011"></BitstreamSwitching>
+              </SegmentList>
+              <SegmentTemplate xmlns="urn:mpeg:dash:schema:mpd:2011" media="$RepresentationID$/t$Time$.m4s" initialization="$RepresentationID$/init.mp4" timescale="48000">
+                  <Initialization xmlns="urn:mpeg:dash:schema:mpd:2011"></Initialization>
+                  <RepresentationIndex xmlns="urn:mpeg:dash:schema:mpd:2011"></RepresentationIndex>
+                  <SegmentTimeline xmlns="urn:mpeg:dash:schema:mpd:2011">
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" t="78122764992512" d="96256"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="95232"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="96256" r="2"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="95232"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="96256" r="2"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="95232"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="96256" r="2"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="95232"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="96256" r="2"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="95232"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="96256" r="2"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="95232"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="96256" r="2"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="95232"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="96256" r="2"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="95232"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="96256" r="2"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="95232"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="96256" r="2"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="95232"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="96256" r="2"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="95232"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="96256" r="2"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="95232"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="96256" r="2"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="95232"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="96256" r="2"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="95232"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="96256" r="2"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="95232"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="96256" r="2"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="95232"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="96256" r="2"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="95232"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="96256" r="2"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="95232"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="96256" r="2"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="95232"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="96256" r="2"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="95232"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="96256" r="2"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="95232"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="96256" r="2"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="95232"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="96256" r="2"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="95232"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="96256" r="2"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="95232"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="96256" r="2"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="95232"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="96256" r="2"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="95232"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="96256" r="2"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="95232"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="96256" r="2"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="95232"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="96256" r="2"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="95232"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="96256" r="2"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="95232"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="96256" r="2"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="95232"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="96256" r="2"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="95232"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="96256" r="2"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="95232"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="96256" r="2"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="95232"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="96256" r="2"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="95232"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="96256" r="2"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="95232"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="96256" r="2"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="95232"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="96256" r="2"></S>
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" d="95232"></S>
+                  </SegmentTimeline>
+                  <BitstreamSwitching xmlns="urn:mpeg:dash:schema:mpd:2011"></BitstreamSwitching>
+              </SegmentTemplate>
+              <Representation xmlns="urn:mpeg:dash:schema:mpd:2011" id="A48" bandwidth="48000" audioSamplingRate="48000" codecs="mp4a.40.2">
+                  <AudioChannelConfiguration xmlns="urn:mpeg:dash:schema:mpd:2011" schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"></AudioChannelConfiguration>
+                  <SegmentBase xmlns="urn:mpeg:dash:schema:mpd:2011">
+                      <Initialization xmlns="urn:mpeg:dash:schema:mpd:2011"></Initialization>
+                      <RepresentationIndex xmlns="urn:mpeg:dash:schema:mpd:2011"></RepresentationIndex>
+                  </SegmentBase>
+                  <SegmentList xmlns="urn:mpeg:dash:schema:mpd:2011">
+                      <Initialization xmlns="urn:mpeg:dash:schema:mpd:2011"></Initialization>
+                      <RepresentationIndex xmlns="urn:mpeg:dash:schema:mpd:2011"></RepresentationIndex>
+                      <SegmentTimeline xmlns="urn:mpeg:dash:schema:mpd:2011"></SegmentTimeline>
+                      <BitstreamSwitching xmlns="urn:mpeg:dash:schema:mpd:2011"></BitstreamSwitching>
+                  </SegmentList>
+                  <SegmentTemplate xmlns="urn:mpeg:dash:schema:mpd:2011">
+                      <Initialization xmlns="urn:mpeg:dash:schema:mpd:2011"></Initialization>
+                      <RepresentationIndex xmlns="urn:mpeg:dash:schema:mpd:2011"></RepresentationIndex>
+                      <SegmentTimeline xmlns="urn:mpeg:dash:schema:mpd:2011"></SegmentTimeline>
+                      <BitstreamSwitching xmlns="urn:mpeg:dash:schema:mpd:2011"></BitstreamSwitching>
+                  </SegmentTemplate>
+              </Representation>
+          </AdaptationSet>
+          <AdaptationSet xmlns="urn:mpeg:dash:schema:mpd:2011" contentType="video" par="16:9" minWidth="640" maxWidth="640" minHeight="360" maxHeight="360" maxFrameRate="60/2" segmentAlignment="true" mimeType="video/mp4" startWithSAP="1">
+              <Role xmlns="urn:mpeg:dash:schema:mpd:2011" schemeIdUri="urn:mpeg:dash:role:2011" value="main"></Role>
+              <SegmentBase xmlns="urn:mpeg:dash:schema:mpd:2011">
+                  <Initialization xmlns="urn:mpeg:dash:schema:mpd:2011"></Initialization>
+                  <RepresentationIndex xmlns="urn:mpeg:dash:schema:mpd:2011"></RepresentationIndex>
+              </SegmentBase>
+              <SegmentList xmlns="urn:mpeg:dash:schema:mpd:2011">
+                  <Initialization xmlns="urn:mpeg:dash:schema:mpd:2011"></Initialization>
+                  <RepresentationIndex xmlns="urn:mpeg:dash:schema:mpd:2011"></RepresentationIndex>
+                  <SegmentTimeline xmlns="urn:mpeg:dash:schema:mpd:2011"></SegmentTimeline>
+                  <BitstreamSwitching xmlns="urn:mpeg:dash:schema:mpd:2011"></BitstreamSwitching>
+              </SegmentList>
+              <SegmentTemplate xmlns="urn:mpeg:dash:schema:mpd:2011" media="$RepresentationID$/t$Time$.m4s" initialization="$RepresentationID$/init.mp4" timescale="90000">
+                  <Initialization xmlns="urn:mpeg:dash:schema:mpd:2011"></Initialization>
+                  <RepresentationIndex xmlns="urn:mpeg:dash:schema:mpd:2011"></RepresentationIndex>
+                  <SegmentTimeline xmlns="urn:mpeg:dash:schema:mpd:2011">
+                      <S xmlns="urn:mpeg:dash:schema:mpd:2011" t="146480184360000" d="180000" r="149"></S>
+                  </SegmentTimeline>
+                  <BitstreamSwitching xmlns="urn:mpeg:dash:schema:mpd:2011"></BitstreamSwitching>
+              </SegmentTemplate>
+              <Representation xmlns="urn:mpeg:dash:schema:mpd:2011" id="V300" bandwidth="300000" width="640" height="360" sar="1:1" frameRate="60/2" codecs="avc1.64001e">
+                  <SegmentBase xmlns="urn:mpeg:dash:schema:mpd:2011">
+                      <Initialization xmlns="urn:mpeg:dash:schema:mpd:2011"></Initialization>
+                      <RepresentationIndex xmlns="urn:mpeg:dash:schema:mpd:2011"></RepresentationIndex>
+                  </SegmentBase>
+                  <SegmentList xmlns="urn:mpeg:dash:schema:mpd:2011">
+                      <Initialization xmlns="urn:mpeg:dash:schema:mpd:2011"></Initialization>
+                      <RepresentationIndex xmlns="urn:mpeg:dash:schema:mpd:2011"></RepresentationIndex>
+                      <SegmentTimeline xmlns="urn:mpeg:dash:schema:mpd:2011"></SegmentTimeline>
+                      <BitstreamSwitching xmlns="urn:mpeg:dash:schema:mpd:2011"></BitstreamSwitching>
+                  </SegmentList>
+                  <SegmentTemplate xmlns="urn:mpeg:dash:schema:mpd:2011">
+                      <Initialization xmlns="urn:mpeg:dash:schema:mpd:2011"></Initialization>
+                      <RepresentationIndex xmlns="urn:mpeg:dash:schema:mpd:2011"></RepresentationIndex>
+                      <SegmentTimeline xmlns="urn:mpeg:dash:schema:mpd:2011"></SegmentTimeline>
+                      <BitstreamSwitching xmlns="urn:mpeg:dash:schema:mpd:2011"></BitstreamSwitching>
+                  </SegmentTemplate>
+              </Representation>
+          </AdaptationSet>
+      </Period>
+  </MPDtype>
